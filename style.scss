@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    .nav{
+        width: 100%;
+        height: 80px;
+        background-color: #f9f6ee;
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        .nav_title{
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            text-decoration: none;
+            color: black;
+        }
+    }
+    .osnova{
+        width: 100%;
+        height: 837px;
+        background-image: url(https://assets.nicepagecdn.com/11a8ddce/4267640/images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg);
+        background-size: cover;
+        background-position: 50% 50%;
+        display: flex;
+        align-items: center;
+        .osnova_div{
+            width: 583px;
+            height: 686px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            left: 400px;
+            h6{
+                width: fit-content;
+                font-size: 18px;
+                font-family: 'Montserrat', sans-serif;
+                margin-top: 20px;
+                color: #fff;
+            }
+            h1{
+                width: 463px;
+                font-size: 60px;
+                font-family: 'Montserrat', sans-serif;
+                margin-top: 21px;
+                color: #fff;
+            }
+            p{
+                font-size: 18px;
+                font-family: 'Raleway', sans-serif;
+                margin-top: 21px;
+                color: #fff;
+            }
+            a{
+                width: 181.94px;
+                height: 55.39px;
+                background-color: #f1ae0e;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 14px;
+                font-family: 'Raleway', sans-serif;
+                color: #fff;
+                font-weight: 700;
+                margin-top: 30px;
+                border-radius: 50px;
+                
+                &:hover{
+                    background-color: #c4b281;
+                    color: black;
+                }
+            }
+            .circle{
+                width: 225px;
+                height: 225px;
+                background-color: #99e54d;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                text-align: center;
+                h2{
+                    font-size: 60px;
+                    font-family: 'Montserrat', sans-serif; 
+                }
+            }
+        }
+    }
+}
+main{
+    #threecards{
+        width: 100%;
+        height: 494px;
+        background-color: #1A1A1A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .grid_container{
+            width: 1140px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(366.66px, 1fr));
+            gap: 20px;
+            .grid_cards{
+                width: 100%;
+                height: 375px;
+                border-radius: 50px;
+                .h61{
+                    width: 100%;
+                    height: 100%;
+                    background-image: url(https://assets.nicepagecdn.com/11a8ddce/4267640/images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg);
+                    color: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-size: cover;
+                    background-position: 50% 50%;
+                    font-size: 18px;
+                    font-family: 'Montserrat', sans-serif;
+                    border-radius: 50px;
+                }
+                .h62{
+                    width: 100%;
+                    height: 100%;
+                    background-image: url(https://assets.nicepagecdn.com/11a8ddce/4267640/images/pexels-photo-3850972.jpeg);
+                    color: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-size: cover;
+                    background-position: 50% 50%;
+                    font-size: 18px;
+                    font-family: 'Montserrat', sans-serif;
+                    border-radius: 50px;
+                }
+                .h63{
+                    width: 100%;
+                    height: 100%;
+                    background-image: url(https://assets.nicepagecdn.com/11a8ddce/4267640/images/italian-spaghetti-with-tomato-sauce-pan.jpg);
+                    color: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-size: cover;
+                    background-position: 50% 50%;
+                    font-size: 18px;
+                    font-family: 'Montserrat', sans-serif;
+                    border-radius: 50px;
+                }
+            }
+        }
+    }
+    #meatandsalad{
+        width: 100%;
+        height: 710px;
+        background-color: #1A1A1A;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .grid_container{
+            width: 1140px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(570px, 1fr));
+            .grid_cards{
+                width: 100%;
+                height: 607px;
+                h2{
+                    font-size: 48px;
+                    font-family: 'Montserrat', sans-serif;
+                    color: #fff;
+                    margin-top: 300px;
+                }
+                h6{
+                    font-size: 18px;
+                    font-family: 'Montserrat', sans-serif;
+                    margin-top: 20px;
+                    color: #fff;
+                }
+                p{
+                    width: 508px;
+                    font-size: 18px;
+                    font-family: 'Raleway', sans-serif;
+                    color: #fff;
+                    margin-top: 23px;
+
+                }
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: 50% 50%;
+                    border-radius: 50px;
+                }
+            }
+        }
+    }
+    #threecards2{
+        width: 100%;
+        height: 494px;
+        background-color: #1A1A1A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .grid_container{
+            width: 1140px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(366.66px, 1fr));
+            gap: 20px;
+            .grid_cards{
+                width: 100%;
+                height: 100%;
+                img{
+                    width: 100%;
+                    height: 375px;
+                    object-fit: cover;
+                    object-position: 50% 50%;
+                    border-radius: 50px;
+                }
+            }
+        }
+    }
+    #croissant{
+        width: 100%;
+        height: 742px;
+        background-color: #1A1A1A;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .grid_container{
+            width: 1140px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(570px, 1fr));
+            .grid_cards{
+                width: 100%;
+                height: 622px;
+                h2{
+                    font-size: 48px;
+                    font-family: 'Montserrat', sans-serif;
+                    color: #fff;
+                    margin-top: 360px;
+                    margin-left: 40px;
+                }
+                h6{
+                    font-size: 18px;
+                    font-family: 'Montserrat', sans-serif;
+                    margin-top: 20px;
+                    color: #fff;
+                    margin-left: 40px;
+                }
+                p{
+                    width: 508px;
+                    font-size: 18px;
+                    font-family: 'Raleway', sans-serif;
+                    color: #fff;
+                    margin-top: 23px;
+                    margin-left: 40px;
+                    line-height: 1.6;
+                }
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: 50% 50%;
+                    border-radius: 50px;
+                }
+            }
+        }
+    }
+    #collage{
+        width: 100%;
+        height: 1557.97px;
+        background-color: #1A1A1A;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2{
+            font-size: 48px;
+            font-family: 'Montserrat', sans-serif;
+            color: #fff;
+            padding-top: 60px;
+        }
+        p{
+            font-size: 18px;
+            font-family: 'Raleway', sans-serif;
+            color: #fff;
+            margin-top: 30px;
+        }
+        .grid_container{
+            max-width: 1140px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(565px, 1fr));
+            margin-top: 30px;
+            gap: 10PX;
+            .grid_cards{
+                width: 100%;
+                height: 643.19px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img{
+                    width: 100%;
+                    height: 484px;
+                    border-radius: 50px;
+                    object-fit: cover;
+                    object-position: 50% 50%;
+                }
+                h6{
+                    font-size: 18px;
+                    color: #fff;
+                    margin-top: 30px;
+                    font-family: 'Montserrat', sans-serif;
+                }
+                a{
+                    background-color: #99e54d;
+                    width: 177.78px;
+                    height: 57.59px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    color: black;
+                    font-size: 16px;
+                    font-family: 'Raleway', sans-serif;
+                    border-radius: 50px;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+    #date{
+        width: 100%;
+        height: 745px;
+        background-image: url(https://assets.nicepagecdn.com/11a8ddce/4267640/images/vegetables-set-left-black-slate.jpg);
+        background-size: cover;
+        background-position: 50% 50%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .container{
+            width: 1140px;
+            height: 745px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            .circle{
+                width: 225px;
+                height: 225px;
+                background-color: #99e54d;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                text-align: center;
+                h2{
+                    font-size: 60px;
+                    font-family: 'Montserrat', sans-serif; 
+                }
+                h6{
+                    width: 119px;
+                    font-size: 18px;
+                    font-family: 'Montserrat', sans-serif; 
+                    color: black;
+                    margin-top: 20px;
+                }
+            }
+            p{
+                font-size: 18px;
+                font-family: 'Raleway', sans-serif;
+                margin-top: 31px;
+                color: #fff;
+            }
+            form{
+                display: flex;
+                gap: 30px;
+                button{
+                    background-color: #99e54d;
+                    width: 124.22px;
+                    height: 49.59px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    color: black;
+                    font-size: 16px;
+                    font-family: 'Raleway', sans-serif;
+                    border-radius: 50px;
+                    margin-top: 30px;
+                    border: none;
+                }
+                input{
+                    width: 511.78px;
+                    height: 49.59px;
+                    border-radius: 20px;
+                    margin-top: 30px;
+                    border: none;
+                }
+            }
+        }
+        .h2{
+            font-size: 48px;
+            font-family: 'Montserrat', sans-serif; 
+            margin-top: 90px;
+            color: #fff;
+        }
+    }
+}
+footer{
+    width: 100%;
+    height: 425.38px;
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .grid_container{
+        max-width: 1140px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(379.98px, 1fr));
+        .grid_cards{
+            max-width: 100%; 
+            height: 305.38px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .greencard{
+                width: 67px;
+                height: 67px;
+                background-color: #99e54d;
+                border-radius: 50%;
+                margin-top: 30px;
+                img{
+                    width: 67px;
+                    height: 67px;
+                    padding: 13px;
+                }
+            }
+            h6{
+                font-size: 18px;
+                font-family: 'Montserrat', sans-serif; 
+                margin-top: 20px;
+                color: #fff;
+            }
+            p{
+                font-size: 18px;
+                font-family: 'Raleway', sans-serif;
+                margin-top: 18px;
+                color: #fff;
+                font-weight: bold;
+            }
+            a{
+                font-size: 18px;
+                font-family: 'Raleway', sans-serif;
+                margin-top: 18px;
+                color: #f1ae0e;
+                text-decoration: none;
+                font-weight: bold;
+            }
+        }
+    }
+}
